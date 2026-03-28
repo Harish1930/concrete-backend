@@ -18,7 +18,7 @@ origins = [
 # -----------------------------
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
+    allow_origins=["https://concrete-frontend-ten.vercel.app"],
     allow_credentials=False,   # Must be False when using wildcard methods/headers
     allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["Content-Type", "Accept"],
