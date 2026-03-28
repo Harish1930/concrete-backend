@@ -9,8 +9,7 @@ from prediction.inference import predict_strength
 app = FastAPI(title="Concrete AI System")
 
 origins = [
-    "http://localhost:5173",
-    "http://127.0.0.1:5173"
+    "https://concrete-frontend-ten.vercel.app"
 ]
 
 # -----------------------------
